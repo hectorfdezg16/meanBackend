@@ -1,0 +1,23 @@
+###
+GET http://localhost:4000/api/users
+###
+POST http://localhost:4000/api/users
+content-Type: application/json
+
+{
+    "name": "Eric",
+    "lastname": "Jimenez",
+    "password": "5678",
+    "coins": "500"
+} 
+###
+DELETE http://localhost:4000/api/users/6048fe110f132e22a0cb4dc9
+###
+PUT http://localhost:4000/api/users/6048fe620f132e22a0cb4dca
+content-Type: application/json
+
+{
+    "coins": "668686876"
+} 
+###
+GET http://localhost:4000/api/users/6048fe620f132e22a0cb4dca
